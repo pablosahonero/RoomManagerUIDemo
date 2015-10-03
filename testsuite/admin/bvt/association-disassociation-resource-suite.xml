@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite
+	name="BVT - Test Suite For Association / Dissasociation Resource to Room"
+	parallel="false">
+	<test name="Verify that an available resource can be associated to a room.">
+		<classes>
+			<class
+				name="org.roommanager.test.admin.conferencerooms.VerifyAssociateResourceToRoom" />
+		</classes>
+	</test>
+	<test name="Verify that is possible to dissociate a resource from a room.">
+		<classes>
+			<class
+				name="org.roommanager.test.admin.conferencerooms.VerifyDisassociateResourceFromRoom" />
+		</classes>
+	</test>
+	<test
+		name="Verify if name of rooms associated to a resource are displayed on [Name] column in [Resource Associations] form when it is selected">
+		<classes>
+			<class
+				name="org.roommanager.test.admin.resource.VerifyIfRoomAppearsAssociatedToResource" />
+		</classes>
+	</test>
+	<test
+		name="Verify if resource quantity associated to a room is displayed on [Quantity] column in [Resource Associations] form when it is selected">
+		<classes>
+			<class
+				name="org.roommanager.test.admin.resource.VerifyIfResourceQuantityAssociatedToRoomAppears" />
+		</classes>
+	</test>
+</suite>

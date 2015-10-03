@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Test Suite For Email Service" parallel="false">	
+  	<test name="Verify it is possible to remove an Email Server from Room Manager">
+   		<classes>
+      		<class name="org.roommanager.test.admin.emailserver.VerifyEmailServerIsRemoved"/>
+    	</classes>
+  	</test>
+  	<test name="Verify a user can add an Email Server to Room Manager">
+   		<classes>
+      		<class name="org.roommanager.test.admin.emailserver.VerifyEmailServerIsRegistered"/>
+    	</classes>
+  	</test>
+</suite>

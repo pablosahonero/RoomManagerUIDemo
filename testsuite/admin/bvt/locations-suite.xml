@@ -1,0 +1,27 @@
+<suite name="BVT - Locations Test Suite" parallel="false">
+	<test name="Verify than a new location can be created.">
+		<classes>
+			<class name="org.roommanager.test.admin.locations.VerifyLocationCreated"/>
+		</classes>
+	</test>
+	<test name="The aplication must allow to delete of a Locations in the locations Forms by selecting a location.">
+		<classes>
+			<class name="org.roommanager.test.admin.locations.VerifyLocationDeleted"/>
+		</classes>
+	</test>
+	<test name="Verify can set the Name, Display Name and Description textfield of a Location is editable.">
+		<classes>
+			<class name="org.roommanager.test.admin.locations.VerifyLocationUpdated"/>
+		</classes>
+	</test>
+	<test name="Verify than a location can be associated to a room.">
+		<classes>
+			<class name="org.roommanager.test.admin.locations.VerifyRoomAssociation"/>
+		</classes>
+	</test>
+	<test name="Verify than a location can be dissociated from a room.">
+		<classes>
+			<class name="org.roommanager.test.admin.locations.VerifyRoomDissociation"/>
+		</classes>
+	</test>
+</suite>

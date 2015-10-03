@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite
+	name="BVT - Test Suite For Enabled and Disabled Impersonation"
+	parallel="false">
+	<test name="Check if the Impersonation can be enabled.">
+		<classes>
+			<class
+				name="org.roommanager.test.admin.impersonation.VerifyImpersonationCanBeEnabled" />
+		</classes>
+	</test>
+	<test name="Check if the impersonation can be disabled.">
+		<classes>
+			<class
+				name="org.roommanager.test.admin.impersonation.VerifyImpersonationCanBeDisabled" />
+		</classes>
+	</test>
+</suite>

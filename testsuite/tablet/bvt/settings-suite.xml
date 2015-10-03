@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Test Suite For Settings Feature" parallel="false">	
+  	<test name="Verify that is possible to stablish a default Conference Room">
+   		<classes>
+      		<class name="org.roommanager.test.tablet.settings.VerifyDefaultRoomIsDisplayed" />
+    	</classes>
+  	</test>
+  	<test name="Verify that is possible to stablish a connection with Room Manager">
+   		<classes>
+      		<class name="org.roommanager.test.tablet.settings.VerifyUrlSettingsIsCreated" />
+    	</classes>
+  	</test>
+</suite>

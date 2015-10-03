@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Test Suite For Home Page Feature" parallel="false">	
+  	<test name="The Available Message of room is selected is displayed on Now button.">
+   		<classes>
+      		<class name="org.roommanager.test.tablet.homePage.VerifyAvailableMessageIsDisplayedOnNowButton" />
+    	</classes>
+  	</test>
+  	<test name="Verify the meetings information is displayed on Next button when the meeting is created time after current date.">
+   		<classes>
+      		<class name="org.roommanager.test.tablet.homePage.VerifyDisplayedInfoInNextButtonWithMeeting" />
+    	</classes>
+  	</test>
+  	<test name="Verify the meetings information is displayed on Now button when the meeting is being held at this time.">
+   		<classes>
+      		<class name="org.roommanager.test.tablet.homePage.VerifyDisplayedInfoInNowButtonWithMeeting" />
+    	</classes>
+  	</test>
+  	<test name="The End Of Day Message of room selected is displayed on Next button.">
+   		<classes>
+      		<class name="org.roommanager.test.tablet.homePage.VerifyEndOfDayMessageIsDisplayedOnNextButton" />
+    	</classes>
+  	</test>
+</suite>

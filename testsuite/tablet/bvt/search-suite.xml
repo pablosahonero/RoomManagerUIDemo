@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Test Suite For Search Feature" parallel="false">	
+  	<test name="Verify that a meeting of an specific room is displayed on [Rooms List] schedule table after clicking on the search page">
+   		<classes>
+      		<class name="org.roommanager.test.tablet.search.VerifyMeetingIsDisplayedOnScheduleTable" />
+    	</classes>
+  	</test>
+  	<test name="Verify that an specific room is displayed on [Rooms List] schedule table using the [Location] filter.">
+   		<classes>
+      		<class name="org.roommanager.test.tablet.search.VerifySearchByLocation" />
+    	</classes>
+  	</test>
+  	<test name="Verify that an specific room is displayed on [Rooms List] schedule table using the [Minimum Capacity] filter.">
+   		<classes>
+      		<class name="org.roommanager.test.tablet.search.VerifySearchByMinimunCapacity" />
+    	</classes>
+  	</test>
+  	<test name="Verify that an specific room is displayed on [Rooms List] schedule table using the [Room Name] filter.">
+   		<classes>
+      		<class name="org.roommanager.test.tablet.search.VerifySearchByRoomName" />
+    	</classes>
+  	</test>
+</suite>

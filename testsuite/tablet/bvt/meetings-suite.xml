@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Test Suite For Meetings" parallel="false">	
+  	<test name="Make sure that is possible to create a Meeting after entering all Scheduler form required fields.">
+   		<classes>
+      		<class name="org.roommanager.test.tablet.meetings.VerifyMeetingIsCreated"/>
+    	</classes>
+  	</test>
+  	<test name="Verify that is possible to remove a Meeting from a Room.">
+   		<classes>
+      		<class name="org.roommanager.test.tablet.meetings.VerifyMeetingIsRemoved"/>
+    	</classes>
+  	</test>
+  	<test name="Verify that is possible to update a Meetings data after entering all Scheduler form required fields.">
+   		<classes>
+      		<class name="org.roommanager.test.tablet.meetings.VerifyMeetingIsUpdated"/>
+    	</classes>
+  	</test>
+  	<test name="Verify that after clicking on a Meeting from Scheduler Page Timeline, the Meeting's data is retrieved.">
+   		<classes>
+      		<class name="org.roommanager.test.tablet.meetings.VerifyAMeetingCanBeRetrieved"/>
+    	</classes>
+  	</test>
+  	<test name="Verify that is possible to create a Meeting by using timeline component to set the meeting start time..">
+   		<classes>
+      		<class name="org.roommanager.test.tablet.meetings.VerifySetTimeByTimeline"/>
+    	</classes>
+  	</test>
+  	<test name="Verify that is possible to update a Meeting time period from Timeline Component by clicking on its front/back end and moving it.">
+   		<classes>
+      		<class name="org.roommanager.test.tablet.meetings.VerifyMeetingTimeIsUpdatedByTimeLine"/>
+    	</classes>
+  	</test>
+</suite>

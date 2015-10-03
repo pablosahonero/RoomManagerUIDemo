@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="BVT - Test Suite for Out Of Order Planning" parallel="false">
+
+	<test
+		name="When values -From- field equals -To- field, Should the range of hours of -From- 
+      must be less than -To-, to be saved.">
+		<classes>
+			<class name="org.roommanager.test.admin.conferencerooms.VerifyOutOfOrderIsCreated"/>
+		</classes>
+	</test>
+	<test
+		name="Verify that created an OutOfOrder for a specific room can be updated with values
+      -From- field equals -To- field and the range of hours of -From- must be less than -To-, 
+      to be saved">
+		<classes>
+			<class
+				name="org.roommanager.test.admin.conferencerooms.VerifyOutOfOrderIsUpdated"/>
+		</classes>
+	</test>
+	<test
+		name="Verify if saved the state of the room when the OnOff Calendar button this pressed">
+		<classes>
+			<class
+				name="org.roommanager.test.admin.conferencerooms.VerifyOutOfOrderIsCreatedWithOnOffCalendarButton"/>
+		</classes>
+	</test>	
+	<test
+		name="Check if saved the state of the room when the OnOff Calendar button this pressed with Meeting created">
+		<classes>
+			<class
+				name="org.roommanager.test.admin.conferencerooms.VerifyOutOfOrderIsCreatedWithOnOffCalendarButtonWithMeeting"/>
+		</classes>
+	</test>
+	
+</suite>

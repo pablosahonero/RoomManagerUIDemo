@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Test Suite for Resources" parallel="false">
+  	<test name="Verify that after clicking on the Cancel button the resource is not created">
+   		<classes>
+      		<class name="org.roommanager.test.admin.resource.VerifyCancelButtonResourceIsNotCreated" />
+    	</classes>
+  	</test>
+  	<test name="Verify that after clicking on the Add Button, the Resources Form is displayed">
+   		<classes>
+      		<class name="org.roommanager.test.admin.resource.VerifyCreateResourcesPageIsDisplayed" />
+    	</classes>
+  	</test>
+  	<test name="Verify if the display name is displayed in [Display Name] column is changed when it is edited in [ResourceInfo] form">
+   		<classes>
+      		<class name="org.roommanager.test.admin.resource.VerifyDisplayNameUpdatedIsDisplayed" />
+    	</classes>
+  	</test>
+  	<test name="Verify that the [Display Name] text_box field does not allow empty values, when creating a resource">
+   		<classes>
+      		<class name="org.roommanager.test.admin.resource.VerifyEmptyDisplayNameIsNotCreated" />
+    	</classes>
+  	</test>
+  	<test name="Verify that edit a [Display Name] text_box field does not allow empty value">
+   		<classes>
+      		<class name="org.roommanager.test.admin.resource.VerifyEmptyDisplayNameIsNotUpdated" />
+    	</classes>
+  	</test>
+  	<test name="Verify that the save a name in [Name] text_box field this does not allow empty value">
+   		<classes>
+      		<class name="org.roommanager.test.admin.resource.VerifyEmptyNameIsNotCreated" />
+    	</classes>
+  	</test>
+  	<test name="Verify that edit a [Name] text_box field does not allow empty value">
+   		<classes>
+      		<class name="org.roommanager.test.admin.resource.VerifyEmptyNameIsNotUpdated" />
+    	</classes>
+  	</test>
+  	<test name="Verify if resource quantity associated to a room is displayed on [Quantity] column in [Resource Associations] form when it is selected">
+   		<classes>
+      		<class name="org.roommanager.test.admin.resource.VerifyIfResourceQuantityAssociatedToRoomAppears" />
+    	</classes>
+  	</test>
+  	<test name="Verify if name of rooms associated to a resource are displayed on [Name] column in [Resource Associations] form when it is selected">
+   		<classes>
+      		<class name="org.roommanager.test.admin.resource.VerifyIfRoomAppearsAssociatedToResource" />
+    	</classes>
+  	</test>
+  	<test name="Verify if is possible create a resource with the repeated [Name] value">
+   		<classes>
+      		<class name="org.roommanager.test.admin.resource.VerifyRepeatedNameIsNotCreated" />
+    	</classes>
+  	</test>
+  	<test name="Verify that room associated to a Resource is Displayed in the Resource Association Page ">
+   		<classes>
+      		<class name="org.roommanager.test.admin.resource.VerifyResourceAssociatedToRoomIsDisplayed" />
+    	</classes>
+  	</test>
+  	<test name="Verify if resource quantity associated to a room is displayed">
+   		<classes>
+      		<class name="org.roommanager.test.admin.resource.VerifyResourceAssociationQuantity" />
+    	</classes>
+  	</test>
+  	<test name="Verify that resource display name is showed on the Resources Tab">
+   		<classes>
+      		<class name="org.roommanager.test.admin.resource.VerifyResourceDisplayName" />
+    	</classes>
+  	</test>
+  	<test name="Verify that is possible to create a new Resource">
+   		<classes>
+      		<class name="org.roommanager.test.admin.resource.VerifyResourceIsCreated" />
+    	</classes>
+  	</test>
+  	<test name="Verify if is posible delete a resource.">
+   		<classes>
+      		<class name="org.roommanager.test.admin.resource.VerifyResourceIsDeleted" />
+    	</classes>
+  	</test>
+  	<test name="Verify if resources that matched with the filter name are displayed in the Roms table when items quantity are from 1-50 also page size">
+   		<classes>
+      		<class name="org.roommanager.test.admin.resource.VerifyResourceIsFiltered" />
+    	</classes>
+  	</test>
+  	<test name="Verify if the name displayed in [Name] column is changed when it is edited in [ResourceInfo] form.">
+   		<classes>
+      		<class name="org.roommanager.test.admin.resource.VerifyResourceNameUpdate" />
+    	</classes>
+  	</test>
+  	<test name="Verify that after clicking on the Resources Tab, the Resources Page is displayed">
+   		<classes>
+      		<class name="org.roommanager.test.admin.resource.VerifyResourcePageIsDisplayed" />
+    	</classes>
+  	</test>
+  	<test name="Verify that the pagination text field in the table of the resource does not accepted alphabetic values">
+   		<classes>
+      		<class name="org.roommanager.test.admin.resource.VerifyResourcePaginationInvalid" />
+    	</classes>
+  	</test>
+  	<test name="Verify that the pagination text field in the table of the resource accept only int numbers">
+   		<classes>
+      		<class name="org.roommanager.test.admin.resource.VerifyResourcePaginationTextField" />
+    	</classes>
+  	</test>
+</suite>

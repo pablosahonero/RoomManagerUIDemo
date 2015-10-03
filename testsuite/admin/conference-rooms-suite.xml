@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Test Suite for Conference Rooms" parallel="false">
+      <test name="Verify that a resource created is shown in the list of Available Resources of a Room.">
+            <classes>
+                  <class name="org.roommanager.test.admin.conferencerooms.VerifyACreatedResourceIsAvailableInRoom"/>
+      </classes>
+      </test>
+      <test name="Verify that is possible to create a new Resource">
+            <classes>
+                  <class name="org.roommanager.test.admin.conferencerooms.VerifyARoomIsDisabled"/>
+      </classes>
+      </test>
+      <test name="Verify if saved the Enabled state of the room when the On/Off Room button this pressed">
+            <classes>
+                  <class name="org.roommanager.test.admin.conferencerooms.VerifyARoomIsEnabled"/>
+      </classes>
+      </test>
+      <test name="Verify that an available resource can be associated to a room.">
+            <classes>
+                  <class name="org.roommanager.test.admin.conferencerooms.VerifyAssociateResourceToRoom"/>
+      </classes>
+      </test>
+      <test name="Check that after clicking on any Room of RoomTable, the Room Form page is displayed.">
+            <classes>
+                  <class name="org.roommanager.test.admin.conferencerooms.VerifyConferenceRoomResourcesHeaderIsPresent"/>
+      </classes>
+      </test>
+      <test name="Verify that is possible to dissociate a resource from a room.">
+            <classes>
+                  <class name="org.roommanager.test.admin.conferencerooms.VerifyDisassociateResourceFromRoom"/>
+      </classes>
+      </test>
+      <test name="Verify that the Display Name text field is an obligatory field">
+            <classes>
+                  <class name="org.roommanager.test.admin.conferencerooms.VerifyDisplayNameIsObligatory"/>
+      </classes>
+      </test>
+      <test name="Verify that the location of a room is set.">
+            <classes>
+                  <class name="org.roommanager.test.admin.conferencerooms.VerifyLocationRoomIsSet"/>
+      </classes>
+      </test>
+      <test name="Verify if enabled the  SendMail Checkbox when is enabled On/Off ScheduleButton with meeting create.">
+            <classes>
+                  <class name="org.roommanager.test.admin.conferencerooms.VerifyOptionSendingMailsEnabledWithMeetingOnOffEnabled"/>
+      </classes>
+      </test>
+      <test name="Verify if enabled the  SendMail Checkbox when is enabled On/Off ScheduleButton without meeting create.">
+            <classes>
+                  <class name="org.roommanager.test.admin.conferencerooms.VerifyOptionSendingMailsEnabledWithoutMeetingOnOfEnabled"/>
+      </classes>
+      </test> 
+      <test name="Create a Out Of Order in the Room when the values of 
+      From(date and hour) field is less than To(date and hour), to be saved.">
+            <classes>
+                  <class name="org.roommanager.test.admin.conferencerooms.VerifyOutOfOrderIsCreated"/>
+      </classes>
+      </test>
+      <test name="Verify OutOfOrder not saved with invalid hours in the room.">
+            <classes>
+                  <class name="org.roommanager.test.admin.conferencerooms.VerifyOutOfOrderNotSavedWithInvalidTimes"/>
+      </classes>
+      </test>
+
+      <test name="Check that after clicking on Out of Order tab in the Room Form, page is displayed.">
+            <classes>
+                  <class name="org.roommanager.test.admin.conferencerooms.VerifyOutOfOrderPageIsDisplayed"/>
+      </classes>
+      </test>
+      <test name="Verify OutOfOrder Title Is Obligatory for Create a Out Of Order in the Room.">
+            <classes>
+                  <class name="org.roommanager.test.admin.conferencerooms.VerifyOutOfOrderTitleIsObligatory"/>
+      </classes>
+      </test>
+
+      <test name="Verify that the configuration on the ResourceAssociations Tab is saved with a quantity of the resource  between 1-3 characters.">
+            <classes>
+                  <class name="org.roommanager.test.admin.conferencerooms.VerifyResourceAssociationQuantity"/>
+      </classes>
+      </test>
+      <test name="Verify that the configuration of a room can be canceled when pressing the Cancel button.">
+            <classes>
+                  <class name="org.roommanager.test.admin.conferencerooms.VerifyRoomCanBeCanceled"/>
+      </classes>
+      </test>
+      <test name="Verify that the capacity of a room is set.">
+            <classes>
+                  <class name="org.roommanager.test.admin.conferencerooms.VerifyRoomCapacityIsSet"/>
+      </classes>
+      </test>
+      <test name="Verify that the code of a room is set.">
+            <classes>
+                  <class name="org.roommanager.test.admin.conferencerooms.VerifyRoomCodeIsSet"/>
+      </classes>
+      </test>
+      <test name="Verify that the display name of a room is set.">
+            <classes>
+                  <class name="org.roommanager.test.admin.conferencerooms.VerifyRoomDisplayNameIsSet"/>
+      </classes>
+      </test>
+      <test name="Verify that the Room Info form can be closed when pressing the close icon.">
+            <classes>
+                  <class name="org.roommanager.test.admin.conferencerooms.VerifyRoomInfoFormIsclosed"/>
+      </classes>
+      </test>
+      <test name="Check that after clicking on Room Info tab in the Room Form, page is displayed.">
+            <classes>
+                  <class name="org.roommanager.test.admin.conferencerooms.VerifyRoomInfoLinkIsDisplayed"/>
+      </classes>
+      </test>
+       <test name="Verify that a resource is displayed as Rooms table when it is icon is selected in Resources Header">
+            <classes>
+                  <class name="org.roommanager.test.admin.conferencerooms.VerifyRoomResourcesFilter"/>
+      </classes>
+      </test>
+      <test name="Verify that the rename of a room is disabled">
+            <classes>
+                  <class name="org.roommanager.test.admin.conferencerooms.VerifyUpdateRoomNameIsDisabled"/>
+      </classes>
+      </test>      
+</suite>

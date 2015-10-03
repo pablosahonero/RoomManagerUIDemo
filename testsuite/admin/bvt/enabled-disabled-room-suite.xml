@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="BVT - Test Suite For Enabled / Disabled Room"
+	parallel="false">
+	<test name="Verify a Room is Disbled">
+		<classes>
+			<class
+				name="org.roommanager.test.admin.conferencerooms.VerifyARoomIsDisabled" />
+		</classes>
+	</test>
+	<test name="Verify a Room is Enabled">
+		<classes>
+			<class
+				name="org.roommanager.test.admin.conferencerooms.VerifyARoomIsEnabled" />
+		</classes>
+	</test>
+</suite>

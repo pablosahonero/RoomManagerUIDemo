@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Test Suite Room Manager Application" parallel="false">
+	<suite-files>
+    	<suite-file path="admin/bvt/enabled-disabled-room-suite.xml"/>
+    	<suite-file path="admin/bvt/association-disassociation-resource-suite.xml"/>
+    	<suite-file path="admin/bvt/create-update-remove-resource-suite.xml"/>
+    	<suite-file path="admin/bvt/create-update-enabled-disabled-out-of-order-suite.xml"/>
+    	<suite-file path="admin/bvt/locations-suite.xml"/>
+    	<suite-file path="admin/bvt/enabled-disabled-impersonation-suite.xml"/>
+    	<suite-file path="admin/bvt/add-remove-email-server-suite.xml"/>
+	</suite-files>
+</suite>

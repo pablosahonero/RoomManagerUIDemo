@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="BVT - Test Suite For Create / Update / Remove Resource"
+	parallel="false">
+	<test name="Verify that is possible to create a new Resource">
+		<classes>
+			<class name="org.roommanager.test.admin.resource.VerifyResourceIsCreated" />
+		</classes>
+	</test>
+	<test
+		name="Verify if the name displayed in [Name] column is changed when it is edited in [ResourceInfo] form.">
+		<classes>
+			<class name="org.roommanager.test.admin.resource.VerifyResourceNameUpdate" />
+		</classes>
+	</test>
+	<test name="Verify if is posible delete a resource.">
+		<classes>
+			<class name="org.roommanager.test.admin.resource.VerifyResourceIsDeleted" />
+		</classes>
+	</test>
+</suite>
+
